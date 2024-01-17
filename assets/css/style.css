@@ -779,14 +779,14 @@ Banner Style
 .main-banner .item h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   line-height: 70px;
   width: 60%;
   margin-bottom: 40px;
 }
 
 .main-banner .item p {
-  color: #000;
+  color: #fff;
   width: 65%;
 }
 
@@ -1837,6 +1837,13 @@ body {
     margin-left: 0px;
     margin-top: 120px;
   }
+  
+  .about-heading {
+    text-align: center;
+    border-bottom: 2px solid black; /* Black underline */
+    display: inline-block; /* Ensures the underline only spans the text */
+    padding-bottom: 10px; /* Spacing between text and underline */
+  }
   .about-us::before,
   .testimonials::before,
   .contact-us::before {
@@ -1969,4 +1976,5 @@ body {
   .fun-facts:before {
     width: 95%;
   }
+  
 }
